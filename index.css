@@ -11,6 +11,8 @@
 body {
   flex-direction: column;
   font-family: 'Outfit', sans-serif;
+  background-color: #dfdd;
+  min-height: 100vh;
 }
 
 .contact-us h1,
@@ -36,10 +38,9 @@ section:target {
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-.content > * {
-  width: 100%;
+  overflow-y: auto;
+  height: calc(100vh - 10%);
+  margin-bottom: 100px;
 }
 
 #dateTime {
@@ -47,6 +48,7 @@ section:target {
   justify-content: flex-end;
   align-items: center;
   padding: 12px;
+  width: 100vw;
 }
 
 /* header */
@@ -194,11 +196,11 @@ input {
 
 .footer {
   height: 10%;
-  width: 96%;
+  width: 98%;
   padding: 15px;
   border: 2px solid black;
-  margin: 2%;
+  margin: 1% 1%;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
-  background-color: #fff;
 }
