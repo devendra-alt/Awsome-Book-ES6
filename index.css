@@ -32,22 +32,21 @@ section:target {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.date {
-  /* float: right;
-   /* * */
-  top: 0;
-
-  /* right: 10px; */
-  margin-left: 101%;
-}
-
 .content > * {
   width: 100%;
+}
+
+#dateTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px;
 }
 
 /* header */
