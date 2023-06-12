@@ -53,8 +53,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add button]**
-- **[Remove button]**
+- **ES6 Modules**
+- **ES6 BEST practices**
 - **[Local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,22 +125,11 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Afreen**
-
-- GitHub: [@githubhandle](https://github.com/tajulafreen)
-- Twitter: [@twitterhandle](https://twitter.com/tajulafreen)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 👤 **Devendra**
 
 - GitHub: [@githubhandle](https://github.com/devendra-alt)
 - Twitter: [@twitterhandle](https://twitter.com/Devendra5101)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/devendramulewa/)
-
-👤 **Melkamu**
-
-- Github:[@melkamu12](https://github.com/melkamu12)
-- LinkidIn: [Melkamu-almawu](https://www.linkedin.com/in/melkamu-almawu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,9 +137,8 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[classes]**
-- [ ] **[prototype]**
-- [ ] **[sort]**
+- [ ] **[better UI]**
+- [ ] **[Server]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
