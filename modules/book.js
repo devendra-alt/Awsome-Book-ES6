@@ -31,9 +31,9 @@ export default class Book {
   }
 
   remove(bookRef) {
-    const bookRefIdNumber = parseInt(bookRef);
+    const bookRefIdNumber = parseInt(bookRef, 10);
     const updatedBookList = this.bookList.filter(
-      (book) => book.id !== bookRefIdNumber
+      (book) => book.id !== bookRefIdNumber,
     );
     this.setBookList(updatedBookList);
     this.bookList = updatedBookList;
@@ -42,9 +42,8 @@ export default class Book {
   bookInit() {
     if (localStorage.getItem('books')) {
       return this.getBookList();
-    } else {
-      return [];
     }
+    return [];
   }
 
   bookListUI() {
