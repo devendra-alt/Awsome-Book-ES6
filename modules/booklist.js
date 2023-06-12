@@ -3,8 +3,7 @@ import Book from './book.js';
 export const book = new Book();
 
 export const bookListLoader = () => {
-  if (document.location.hash === '' || document.location.hash === '#')
-    document.location.hash = '#books';
+  if (document.location.hash === '' || document.location.hash === '#') document.location.hash = '#books';
 };
 
 export const bookListSetter = () => {
