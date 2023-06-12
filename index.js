@@ -1,5 +1,7 @@
-import Book from './modules/book.js';
+import { book, bookListLoader, bookListSetter } from './modules/booklist.js';
 
-const book = new Book();
-book.bookListUI();
+bookListLoader();
+
+window.addEventListener('load', bookListSetter);
+
 book.add();
