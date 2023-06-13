@@ -11,6 +11,8 @@
 body {
   flex-direction: column;
   font-family: 'Outfit', sans-serif;
+  background-color: #dfdd;
+  min-height: 100vh;
 }
 
 .contact-us h1,
@@ -32,22 +34,21 @@ section:target {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow-y: auto;
+  height: calc(100vh - 10%);
+  margin-bottom: 100px;
 }
 
-.date {
-  /* float: right;
-   /* * */
-  top: 0;
-
-  /* right: 10px; */
-  margin-left: 101%;
-}
-
-.content > * {
-  width: 100%;
+#dateTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px;
+  width: 100vw;
 }
 
 /* header */
@@ -195,11 +196,11 @@ input {
 
 .footer {
   height: 10%;
-  width: 96%;
+  width: 98%;
   padding: 15px;
   border: 2px solid black;
-  margin: 2%;
+  margin: 1% 1%;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
-  background-color: #fff;
 }
