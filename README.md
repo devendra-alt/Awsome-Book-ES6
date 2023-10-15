@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://tajulafreen.github.io/Awesome-Books/#books)
+- [Live Demo Link](https://devendra-alt.github.io/Awesome-Books/#books)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
